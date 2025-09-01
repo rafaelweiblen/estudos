@@ -13,17 +13,7 @@ document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', 
     navMenu.classList.remove('active');
 }));
 
-// Header scroll effect
-window.addEventListener('scroll', () => {
-    const header = document.querySelector('.header');
-    if (window.scrollY > 100) {
-        header.style.background = 'rgba(255, 255, 255, 0.98)';
-        header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
-    } else {
-        header.style.background = 'rgba(255, 255, 255, 0.95)';
-        header.style.boxShadow = 'none';
-    }
-});
+
 
 // Smooth scrolling para links internos
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -318,9 +308,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const heroTitle = document.querySelector('.hero-title');
     if (heroTitle) {
         const originalText = heroTitle.textContent;
-        setTimeout(() => {
-            typeWriter(heroTitle, originalText, 50);
-        }, 1000);
+        typeWriter(heroTitle, originalText, 50);
     }
 });
 
@@ -365,5 +353,3 @@ window.addEventListener('load', () => {
         document.body.classList.add('loaded');
     }, 500);
 });
-
-console.log('Portfolio Digital carregado com sucesso! 🚀');
