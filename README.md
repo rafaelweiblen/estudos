@@ -82,10 +82,10 @@ No arquivo `styles.css`, você pode alterar as cores principais:
 
 ```css
 /* Gradiente principal */
-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
 
 /* Gradiente secundário */
-background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
 ```
 
 #### Adicionar Projetos ao Portfólio
@@ -117,7 +117,7 @@ Para adicionar novos projetos, copie este bloco no `index.html`:
 As categorias disponíveis são:
 - `web` - Projetos web
 - `mobile` - Aplicativos mobile
-- `design` - Design/UI/UX
+- `strategy` - Estratégia
 
 #### Adicionar Habilidades
 Para adicionar ou modificar habilidades na seção "Sobre":
@@ -158,7 +158,7 @@ Crie um arquivo `process.php` e configure o formulário para enviar para ele.
 - Fechamento automático ao clicar em links
 
 ### Filtros de Portfólio
-- Filtros por categoria (Web, Mobile, Design)
+- Filtros por categoria (Web, Mobile, Estratégia)
 - Animações suaves de transição
 
 ### Animações
@@ -183,11 +183,11 @@ O template é totalmente responsivo e inclui:
 ## 🎨 Personalização de Cores
 
 ### Paleta de Cores Atual
-- **Primária**: #667eea (Azul)
-- **Secundária**: #764ba2 (Roxo)
-- **Acento**: #f093fb (Rosa)
-- **Texto**: #333 (Cinza escuro)
-- **Fundo**: #f8f9fa (Cinza claro)
+- **Primária**: #e53935 (Vermelho)
+- **Secundária**: #b71c1c (Vermelho Escuro)
+- **Acento**: #f5f5f5 (Branco)
+- **Texto**: #f5f5f5 (Branco)
+- **Fundo**: #121212 (Preto)
 
 ### Como Alterar Cores
 1. Abra `styles.css`
