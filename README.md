@@ -82,10 +82,10 @@ No arquivo `styles.css`, você pode alterar as cores principais:
 
 ```css
 /* Gradiente principal */
-background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
 
 /* Gradiente secundário */
-background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
 ```
 
 #### Adicionar Projetos ao Portfólio
@@ -183,8 +183,8 @@ O template é totalmente responsivo e inclui:
 ## 🎨 Personalização de Cores
 
 ### Paleta de Cores Atual
-- **Primária**: #e53935 (Vermelho)
-- **Secundária**: #b71c1c (Vermelho Escuro)
+- **Primária**: #ff7f50 (Goiaba)
+- **Secundária**: #e5673c (Goiaba Escuro)
 - **Acento**: #f5f5f5 (Branco)
 - **Texto**: #f5f5f5 (Branco)
 - **Fundo**: #121212 (Preto)
