@@ -50,7 +50,7 @@ body {
 }
 
 .nav-brand span {
-    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -71,7 +71,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #e53935;
+    color: #ff7f50;
 }
 
 .nav-link::after {
@@ -81,7 +81,7 @@ body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
     transition: width 0.3s ease;
 }
 
@@ -145,7 +145,7 @@ body {
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -176,7 +176,7 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
     color: white;
 }
 
@@ -193,7 +193,7 @@ body {
 
 .btn-secondary:hover {
     background: white;
-    color: #e53935;
+    color: #ff7f50;
     transform: translateY(-2px);
 }
 
@@ -217,7 +217,7 @@ body {
 .floating-card i {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    color: #e53935;
+    color: #ff7f50;
 }
 
 .floating-card h3 {
@@ -237,7 +237,7 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -300,7 +300,7 @@ body {
 
 .skill-progress {
     height: 100%;
-    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
     border-radius: 4px;
     transition: width 1s ease;
 }
@@ -316,7 +316,7 @@ body {
 .profile-image {
     width: 120px;
     height: 120px;
-    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -368,7 +368,7 @@ body {
 .service-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -408,7 +408,7 @@ body {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #e53935;
+    color: #ff7f50;
     font-weight: bold;
 }
 
@@ -428,9 +428,9 @@ body {
 
 .filter-btn {
     padding: 10px 20px;
-    border: 2px solid #e53935;
+    border: 2px solid #ff7f50;
     background: transparent;
-    color: #e53935;
+    color: #ff7f50;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -439,7 +439,7 @@ body {
 
 .filter-btn.active,
 .filter-btn:hover {
-    background: #e53935;
+    background: #ff7f50;
     color: white;
 }
 
@@ -483,7 +483,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(183, 28, 28, 0.9);
+    background: rgba(229, 103, 60, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -525,14 +525,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #e53935;
+    color: #ff7f50;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .portfolio-link:hover {
     transform: scale(1.1);
-    background: #b71c1c;
+    background: #e5673c;
     color: white;
 }
 
@@ -556,7 +556,7 @@ body {
 .contact-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -588,7 +588,7 @@ body {
 .social-link {
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #e5673c 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -600,7 +600,7 @@ body {
 
 .social-link:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(229, 57, 53, 0.3);
+    box-shadow: 0 10px 25px rgba(255, 127, 80, 0.3);
 }
 
 .contact-form {
@@ -630,7 +630,7 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #e53935;
+    border-color: #ff7f50;
 }
 
 .form-group textarea {
@@ -658,7 +658,7 @@ body {
 }
 
 .footer-brand span {
-    color: #e53935;
+    color: #ff7f50;
 }
 
 .footer-brand p {
@@ -689,7 +689,7 @@ body {
 }
 
 .footer-links a:hover {
-    color: #e53935;
+    color: #ff7f50;
 }
 
 .footer-services li {
@@ -824,6 +824,6 @@ html {
 .filter-btn:focus,
 .social-link:focus,
 .portfolio-link:focus {
-    outline: 2px solid #e53935;
+    outline: 2px solid #ff7f50;
     outline-offset: 2px;
 }
